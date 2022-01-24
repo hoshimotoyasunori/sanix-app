@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block  content %}
+
+<h2>{{work}}</h2>
+<form action="/{{work}}/post" method='POST'>
+    <p>問題に感じているところを記入してください</p>
+    <textarea name="body" id="dody" cols="30" rows="10"></textarea>
+    <input type="submit" value="送信"submit>
+</form>
+<a href="/"role="button">←Topに戻る</a>
+{% endblock  %}

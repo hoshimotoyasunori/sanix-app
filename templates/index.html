@@ -1,0 +1,116 @@
+{% extends 'base.html' %}
+
+{% block  content %}
+<div class="box">
+    <h2 class="title">個人オーナー</h2>
+    <div class="block">
+        
+        <div class="content">
+            <p class="subtitle">オーナー業務</p>
+            <div class="card">
+                <ul>
+                    {% for work in works %}
+                        {% if loop.index == 1 %}
+                            <li><a href="/{{work}}/update" role="button" class="owner" >{{ work }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="box">
+    <h2 class="title">不動産会社</h2>
+    <div class="block">
+        <div class="content">
+            <p class="subtitle">管理業務</p>
+            <div class="card">
+                <ul>
+                    {% for work in works %}
+                        {% if  1 < loop.index < 7 %}
+                            <li class="item1" ><a href="/{{work}}/update" role="button" >{{ work }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <p class="subtitle">オーナー業務</p>
+            <div class="card">
+                <ul>
+                    {% for work in works %}
+                        {% if  6 < loop.index < 9 %}
+                            <li class="item1" ><a href="/{{work}}/update" role="button" >{{ work }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    
+        <div class="content">
+            <p class="subtitle">BM業務</p>
+            <div class="card">
+                <ul>
+                    {% for work in works %}
+                        {% if  8 < loop.index < 12 %}
+                            <li class="item2" ><a href="/{{work}}/update" role="button" >{{ work }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <p class="subtitle">建築業務</p>
+            <div class="card">
+                <ul>
+                    {% for work in works %}
+                        {% if  11 < loop.index < 13 %}
+                            <li class="item2" ><a href="/{{work}}/update" role="button" >{{ work }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    
+        <div class="content">
+            <p class="subtitle">賃貸仲介業務</p>
+            <div class="card">
+                <ul>
+                    {% for work in works %}
+                        {% if  12 < loop.index < 18 %}
+                            <li class="item3" ><a href="/{{work}}/update" role="button" >{{ work }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <p class="subtitle">売買仲介業務</p>
+            <div class="card">
+                <ul>
+                    {% for work in works %}
+                        {% if  17 < loop.index < 22 %}
+                            <li class="item3" ><a href="/{{work}}/update" role="button" >{{ work }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    
+        <div class="content">
+            <p class="subtitle">その他業務</p>
+            <div class="card">
+                <ul>
+                    {% for work in works %}
+                        {% if  21 < loop.index  %}
+                            <li class="item4" ><a href="/{{work}}/update" role="button">{{ work }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+{% endblock  %}

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sanix-flask-spreadsheet",
+  "private_key_id": "2719e2bb282799f7ef2977d6b7a19ea18a702c61",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDAt1OupZRsgTmk\nUPMVKYrhvcb2gxAZ8ggoSaO4HOrANU/s22r4dAgSQmKbiLnLWhiYo53fQvA/p1IL\nBtEj7zDuVw58xU3Wmkz7DPTSd4fXVwzxxwNFalxT81QHr2wJSQi/Qa8HSZeyNZl0\nlrCu6gah8jgz8VVvVpvG1edrJlYxs25zkyaA325Wf0+ZO8YmN/kCPFp6aXBSKVqX\nbAhQJdst+CQkSOa0Wd4LzMs+dzP0Y15SzVPKFnFL4Vehi0zD+xzcCj83CfZGiVMG\n115HSwaUpxCP1mOnMd1qLGtaHBfx/2fKE5H8/Sox6LxUaD8Xa0pMs4UaPQsyaSVG\nVPOhBQDVAgMBAAECggEAVxE8jHYghZkomrU77b60EWM1ReBW4PH5f4Itppvh727m\nqkNDo/aAQwedF1oBXv9Yh3W8eMb8VjXZGkQ9Lvf86mGImRRnI2LZDr9+yKvaQo8A\nuSdJsg3oosEXoNU/gT5u5kHduvQjxg7zQrpmHtB6qKYPgGAzUjcV8BJqGH3ciV0X\n71khsbJV46camJ8tr8VOd6Hlmspokpexywuy1USQTMTn/k0BmCiguTVXuU5b19NB\nUR7BM0uwnzoNnFc5BpwM7DXK/BERcuG32/+RAFbL8aY0622TTXUpAed7k7nphLqx\nvdqaDWR0JKNj83bQxs4LNW5TE/2D5LFgGoi0HtcfjQKBgQDj/0Wv2znYYyptTieA\nutUBYLdjUui+5hdsYo7sqp7H2SRw9M/7U510jU1njKPLaArRO0/loklaTB5KQsDU\nVIQeGmr7CiWiubpWV+Kib3d4kf0gxCFSQ3ardWkULR8JrRIJt1MFHbwRTMUaeUSF\nO7Uklg4dqBWYfX9phC4kWtjhPwKBgQDYYr3wbX/S0Y9uwkZw/LnrE9NFOM/aVcl0\nyu2swMbGRDmNVwuQxCMpk1V9zMz5dmszCkunAuIyC2b7b13j/BVBhMYercTeIP3B\nb0h0A0QHQiIInOteBNq9jd8FW00OJIUk74RDLGgwnnQPosLI5Z8UYfrL4k4dNFO8\nQrptGAbE6wKBgQC+W94VK9aqInHD/WLiChvaIKQ9G3YUHQwlhEyMsRAND/FrFhuo\nXXGzZF7iO/xt0hpmAz18HvlbmP4ZRo61OTNt5uS3YQt3R9aaTJp+wM5hLpLHjrm7\nc3RbR5ZKMDof3A6ZaiS4utDRKOXQaruY+fcN6vMyM6qEPRPqR2A3HlrCBQKBgQC5\nku1MXcxK9BgrqAebbNLRrZ359sAjgoEUXdi52FZgwTAObEFp9Rwm0sl16wc7Rnin\nPEQnRkzRGIBIUHlYRd/A4eq7ctGsouSdWR/tBsP36ZqggltEtasW9631vRh3cZCS\nXauzpEjysWHd6vtcKbllVKYu5rWRTEgn455YY0ui4wKBgFyE8NKM0sP8X2sld/br\nYeGIhV2+hQ07FejZDAxrWi9rTHWvjqvoVxemArFcuuA7riJmjIwK9DLlqts/uzCV\n39IMyWncUu1VUIZUkRRni4z9ghTS8GbWzthCZL0vz5FgzWWqnooJ6AdADSOGqDom\n/WjGbkVCrC8ca4RtRCxNsgvn\n-----END PRIVATE KEY-----\n",
+  "client_email": "python@sanix-flask-spreadsheet.iam.gserviceaccount.com",
+  "client_id": "111312172616306840562",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/python%40sanix-flask-spreadsheet.iam.gserviceaccount.com"
+}
